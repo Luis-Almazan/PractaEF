@@ -13,6 +13,9 @@ npx prisma init
 # migrar tablas
 npx prisma migrate dev --name init
 
+#regenerar el eschema
+npx prisma generate
+
 
 Ejemplos:
 
